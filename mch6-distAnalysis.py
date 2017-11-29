@@ -194,7 +194,7 @@ def makePhotoFigs(x):
 
 # Read in metafile
 
-metafileData, metafileHeader = jmf.metafilereader(userhome + '/Dropbox/Python/photometry/mch6-dist-forMatPy.txt')
+metafileData, metafileHeader = jmf.metafilereader(userhome + '\\Documents\\GitHub\\MCH6\\mch6-dist-forMatPy.txt')
 exptsuffix = '-dist'
 includecol = 5
 
@@ -212,7 +212,7 @@ for i in metafileData:
 #    for j in ['s15']:
     
 for i in rats:
-    pdf_pages = PdfPages(userhome + '/Dropbox/Python/photometry/output-mch6-dist/' + i + exptsuffix + '.pdf')
+    pdf_pages = PdfPages('R:\\DA_and_Reward\\jem64\\1705_MCH6\\output\\' + i + exptsuffix + '.pdf')
     for j in rats[i].sessions:
         
         print('Analysing rat ' + i + ' in session ' + j)
