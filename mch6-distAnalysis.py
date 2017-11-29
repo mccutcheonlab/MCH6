@@ -231,6 +231,10 @@ for i in rats:
                                   burstThreshold = 0.50)
              
         bins = 200
+        
+        x.randomevents = jmf.makerandomevents(120, max(x.output.Tick.onset)-120)
+        x.bgTrials, x.pps = jmf.snipper(x.data, x.randomevents,
+                                        t2sMap = x.t2sMap, fs = x.fs, bins=bins)
     
         try:
             x.siTrials, x.pps = jmf.snipper(x.data, x.output.Sir.onset,
