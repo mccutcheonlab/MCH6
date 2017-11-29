@@ -1,0 +1,7 @@
+tdtfile	medfile	rat	date	session	include	bottleA	bottleB	endcol
+Kate-170605-074416		mch6.4	170605	14	1	maltodextrin	empty	0
+Kate-170605-085012		mch6.5	170605	14	1	empty	maltodextrin	0
+Kate-170605-095919		mch6.6	170605	14	1	empty	maltodextrin	0
+Kate-170606-084109		mch6.4	170606	15	1	maltodextrin	empty	0
+Kate-170606-095015		mch6.5	170606	15	1	empty	maltodextrin	0
+Kate-170606-105702		mch6.6	170606	15	1	empty	maltodextrin	0
